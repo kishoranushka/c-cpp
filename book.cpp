@@ -33,7 +33,7 @@ int main()
     cout << "enter the no. of books you want to enter the details: ";
     cin >> n;
     book b1[n];
-    for (int i = 1; i <= n;i++)
+    for (int i = 0; i < n;i++)
     {
         b1[i].getdata();
         b1[i].showdata();
